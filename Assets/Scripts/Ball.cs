@@ -37,7 +37,6 @@ public class Ball : MonoBehaviour
     }
     protected virtual void RunStart() 
     {
-        DontDestroyOnLoad(this.gameObject);
         transform.position = _startPosition;
     }
 
